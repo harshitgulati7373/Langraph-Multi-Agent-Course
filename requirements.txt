@@ -1,0 +1,101 @@
+# LangGraph Multi-Agent Systems Course - Python Dependencies
+# Compatible with Python 3.9+
+
+# Core LangGraph and LangChain
+langgraph==0.2.14
+langchain==0.2.16
+langchain-core==0.2.34
+langchain-community==0.2.16
+
+# OpenAI Integration (Primary LLM Provider)
+openai==1.45.0
+langchain-openai==0.1.22
+
+# State Management and Persistence
+psycopg2-binary==2.9.9  # PostgreSQL adapter
+sqlite3  # Built-in Python module
+
+# Data Processing and Validation
+pydantic==2.8.2
+pydantic-settings==2.4.0
+
+# Async Support
+aiohttp==3.9.5
+asyncio  # Built-in Python module
+
+# Vector Stores and Embeddings
+chromadb==0.5.5
+faiss-cpu==1.8.0
+numpy==1.24.4
+
+# Jupyter Notebook Support
+jupyter==1.0.0
+ipykernel==6.29.5
+notebook==7.2.1
+
+# Development Tools
+python-dotenv==1.0.1
+typing-extensions==4.12.2
+
+# Monitoring and Observability
+langsmith==0.1.99
+
+# Web Integration and Tools
+requests==2.32.3
+beautifulsoup4==4.12.3
+tavily-python==0.3.3  # Web search tool
+
+# Visualization and Plotting
+matplotlib==3.8.4
+plotly==5.22.0
+
+# Optional: FastAPI for deployment examples
+fastapi==0.112.1
+uvicorn==0.30.6
+
+# Optional: Streamlit for UI examples
+streamlit==1.37.1
+
+# Testing
+pytest==8.3.2
+pytest-asyncio==0.24.0
+
+# Development and Formatting
+black==24.8.0
+flake8==7.1.1
+isort==5.13.2
+
+# Documentation
+mkdocs==1.6.0
+mkdocs-material==9.5.31
+
+# Security
+cryptography==43.0.0
+
+# Cost Tracking and Analytics
+tiktoken==0.7.0  # Token counting for OpenAI
+
+# Memory Management
+memory-profiler==0.61.0
+
+# Progress Bars and CLI Tools
+tqdm==4.66.5
+rich==13.7.1
+
+# Date and Time Utilities
+python-dateutil==2.9.0
+
+# JSON Schema Validation
+jsonschema==4.23.0
+
+# HTTP Client with Retry Logic
+tenacity==8.5.0
+
+# Optional: Redis for advanced caching
+redis==5.0.8
+
+# Optional: Docker Python SDK
+docker==7.1.0
+
+# Package Version Management
+packaging==24.1
